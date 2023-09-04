@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+body {
+    width: 100%;
+}
+
+/* HEADER + NAV */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(99,92,169,255);
+    padding-block: 1rem;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: unset;
+}
+.navbar li {
+    list-style: none;
+    padding: 0 1rem;
+}
+.navbar li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    transition: 0.3s ease;
+}
+.navbar li a:hover,
+.navbar li a.active {
+    color: white;
+}
+/* ////////// */
+.products {
+    margin: .5rem;
+}
+
+.card {
+    margin: 1rem;
+    border: 1px solid rgba(99,92,169,255);
+    border-radius: 10px;
+    padding: 3rem;
+}
+.card img {
+    margin: 1rem;
+}
+
+.card h4 {
+    margin-block: .5rem;
+}
+
+.card h6 {
+    margin-block: .5rem;
+}
+
+.card p {
+    margin-block: .5rem;
+    font-weight: 600;
+    color: green;
+}
+
+.card button {
+    width: 100%;
+    background-color: rgba(99,92,169,255);
+    color:white;
+    border: none;
+    padding-block: .5rem;
+}
